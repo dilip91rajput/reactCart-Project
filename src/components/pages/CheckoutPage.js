@@ -205,7 +205,7 @@ export default function CheckoutPage() {
                         <dt>Shipping cost:</dt>
                         <dd className="text-end"> + $14.00 </dd>
                         </dl>
-                        { discount ? <dl className="dlist-align">
+                        {discount ? <dl className="dlist-align">
                         <dt>Discount ({discount}%):</dt>
                         <dd className="text-end">You Saved $({discountedAmount})</dd>
                         </dl>: null}
